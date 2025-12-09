@@ -2,20 +2,21 @@ name: Auto Content (Nano AI Local)
 
 on:
   schedule:
-    - cron: '0 23 * * *' # Jam 6 Pagi WIB
-  workflow_dispatch: # Biar bisa di-klik Run Manual
+    # Jalan otomatis jam 06:00 pagi WIB (23:00 UTC)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Tombol Manual Run
 
 jobs:
   run-nano-ai:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Izin wajib buat update file
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # 1. SETUP AI (OLLAMA)
+    # --- TAHAP 1: SETUP AI LOKAL (OLLAMA) ---
     - name: Install Ollama
       run: curl -fsSL https://ollama.com/install.sh | sh
 
@@ -23,12 +24,12 @@ jobs:
       run: ollama serve & 
     
     - name: Pull Nano Model
-      # Download model Qwen 2.5 (1.5GB)
+      # Kita pake Qwen 2.5 (1.5GB) yang ringan & pinter
       run: |
         sleep 5
         ollama pull qwen2.5:1.5b
 
-    # 2. JALANKAN PYTHON
+    # --- TAHAP 2: SETUP PYTHON ---
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -39,17 +40,19 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium webdriver-manager requests beautifulsoup4
 
-    - name: Install Chrome
+    - name: Install Chrome Browser
       run: |
         sudo apt-get update
         sudo apt-get install google-chrome-stable
 
+    # --- TAHAP 3: JALANKAN OTAKNYA ---
     - name: Run Autopilot Script
       run: python autopilot_nano.py
       
-    # 3. SIMPAN HASILNYA
+    # --- TAHAP 4: SIMPAN HASIL (TERMASUK SITEMAP) ---
     - name: Commit and Push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: '🤖 Auto-update content (Qwen Nano AI)'
-        file_pattern: 'artikel/*.html index.html data.json'
+        commit_message: '🤖 Auto-update content + Sitemap XML'
+        # 👇 INI KUNCINYA: Gw udah masukin sitemap.xml di sini
+        file_pattern: 'artikel/*.html index.html data.json sitemap.xml'
