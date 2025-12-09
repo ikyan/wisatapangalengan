@@ -1,50 +1,223 @@
 
-        <!DOCTYPE html>
-        <html lang="id">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!DOCTYPE html><html lang="id"><head>
+            <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="google-site-verification" content="EM2BTQp-XvvFG9bK69Z0BQSYNLiSb3ryIzbr5jMUNqQ" />
-            <title>Wisata Pangalengan - Healing Terbaik</title>
+            <meta name="description" content="Portal wisata Pangalengan terbaik. Temukan paket open trip, camping, dan info tiket masuk Nimo Highland 2025.">
+            <title>Wisata Pangalengan - Healing Terbaik 2025</title>
             
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-                body { font-family: 'Poppins', sans-serif; background-color: #f8fafc; margin: 0; padding: 0; color: #334155; }
-                .hero {
-                    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1544983220-4b21915df842?w=1600&q=80');
-                    background-size: cover; background-position: center; color: white; text-align: center; padding: 120px 20px;
-                    border-radius: 0 0 40px 40px; margin-bottom: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-                }
-                .hero h1 { font-size: 3rem; margin: 0; font-weight: 600; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
-                .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-                .section-title { font-size: 1.8rem; color: #0f172a; margin-bottom: 30px; border-left: 5px solid #10b981; padding-left: 15px; font-weight: 600; }
-                .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-bottom: 60px; }
-                .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.05); transition: transform 0.3s ease; }
-                .card:hover { transform: translateY(-5px); }
-                .card img { width: 100%; height: 220px; object-fit: cover; }
-                .card-body { padding: 25px; }
-                .btn { display: block; width: 100%; text-align: center; padding: 12px 0; border-radius: 12px; font-weight: 600; text-decoration: none; margin-top: 15px; }
-                .btn-wa { background: #22c55e; color: white; }
-                footer { text-align: center; padding: 50px 20px; color: #94a3b8; font-size: 0.9rem; border-top: 1px solid #e2e8f0; }
-            </style>
-        
-        </head>
-        <body>
-            <div class="hero"><h1>🌲 Explore Pangalengan</h1><p>Update: 09 December 2025</p></div>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+    :root { --primary: #047857; --secondary: #064e3b; --accent: #10b981; --bg: #f0fdf4; --text: #1e293b; }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    
+    /* NAVIGATION */
+    nav { background: white; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+    .logo { font-weight: 800; font-size: 1.5rem; color: var(--primary); text-decoration: none; }
+    .nav-btn { background: var(--primary); color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; font-weight: 600; transition: 0.3s; }
+    .nav-btn:hover { background: var(--secondary); box-shadow: 0 5px 15px rgba(4, 120, 87, 0.3); }
+
+    /* HERO SECTION */
+    header { 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1596401057633-56565355e1db?w=1600&q=80');
+        background-size: cover; background-position: center; color: white; 
+        padding: 100px 20px; text-align: center; border-radius: 0 0 50px 50px; margin-bottom: 50px;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 15px; font-weight: 800; letter-spacing: -1px; }
+    header p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto 30px; }
+    
+    /* LAYOUT */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .section-head { text-align: center; margin-bottom: 40px; }
+    .section-head h2 { font-size: 2rem; color: var(--secondary); margin-bottom: 10px; }
+    .section-head span { background: #d1fae5; color: var(--primary); padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; }
+
+    /* GRID SYSTEM */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 80px; }
+    
+    /* CARDS */
+    .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid rgba(0,0,0,0.05); display: flex; flex-direction: column; }
+    .card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    .card-img { height: 200px; width: 100%; object-fit: cover; }
+    .card-body { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
+    .card-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; color: var(--text); }
+    .card-text { font-size: 0.95rem; color: #64748b; margin-bottom: 20px; flex-grow: 1; }
+    .price { font-size: 1.5rem; color: #ef4444; font-weight: 800; margin-bottom: 15px; display: block; }
+    
+    /* BUTTONS */
+    .btn { display: block; width: 100%; text-align: center; padding: 12px 0; border-radius: 12px; text-decoration: none; font-weight: 600; transition: 0.3s; }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: var(--secondary); }
+    .btn-outline { border: 2px solid #cbd5e1; color: var(--text); background: transparent; }
+    .btn-outline:hover { border-color: var(--primary); color: var(--primary); }
+
+    /* FOOTER */
+    footer { background: white; padding: 50px 20px; text-align: center; border-top: 1px solid #e2e8f0; color: #94a3b8; font-size: 0.9rem; margin-top: 50px; }
+    
+    /* RESPONSIVE */
+    @media (max-width: 768px) { header h1 { font-size: 2rem; } .grid { grid-template-columns: 1fr; } }
+</style>
+
+        </head><body>
+            <nav>
+                <a href="#" class="logo">🌲 Wisata Pangalengan</a>
+                <a href="https://wa.me/6285156098112" class="nav-btn">Chat Admin</a>
+            </nav>
+            
+            <header>
+                <div class="container">
+                    <h1>Temukan Surga Tersembunyi di Bandung Selatan</h1>
+                    <p>Lupakan penat kota. Nikmati udara sejuk kebun teh, danau purba, dan petualangan seru bersama kami.</p>
+                    <a href="#paket" class="nav-btn" style="background:white; color:var(--primary);">Lihat Paket Hemat ⬇️</a>
+                </div>
+            </header>
+            
             <div class="container">
-                <h2 class="section-title">📦 Paket Wisata</h2><div class="grid">
-            <div class="card"><div class="card-body"><h3>Open Trip Nimo Highland</h3><h2 style="color:#ef4444;">Rp 350.000</h2><p>Paket paling laku! Seharian puas main di jembatan kaca.</p>
-            <a href="https://wa.me/6285156098112" class="btn btn-wa">📱 Booking</a></div></div>
-            <div class="card"><div class="card-body"><h3>Camping Cileunca 2D1N</h3><h2 style="color:#ef4444;">Rp 250.000</h2><p>Malam syahdu di pinggir danau, api unggun & jagung bakar.</p>
-            <a href="https://wa.me/6285156098112" class="btn btn-wa">📱 Booking</a></div></div></div>
-                <h2 class="section-title">🗺️ Destinasi</h2><div class="grid">
-            <div class="card"><img src="https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?w=500&q=80"><div class="card-body"><h3>Wisata Cileunca</h3><p>Cileunca, terindah kawasan wisata pantai, semakin menarik dikunjungi dengan pemandu guide yang mendampingi. Temukan alam laut bebas polusi dan memanjat gunung untuk akses ke suara alam yang luar biasa di Cileunca.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?w=500&q=80"><div class="card-body"><h3>Sunrise Point Cukul</h3><p>Puncak indah matahari, Sunset Spot tersembunyi.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1596401057633-56565355e1db?w=500&q=80"><div class="card-body"><h3>Hutan Pinus Rahong</h3><p>Berlibur di hutan pinus indah memanjakan pikiran dan rambut...</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?w=500&q=80"><div class="card-body"><h3>Kebun Teh Riung Gunung</h3><p>"Renaissancenya udara segar, kafe-kafesan buatan tangan, dan pemandian alam sempurna di Gunung Riung.."</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1596401057633-56565355e1db?w=500&q=80"><div class="card-body"><h3>Cibolang Hot Spring Water</h3><p>Cibolang, destinasi unik berhubungan dengan air panas yang menakjubkan. Indahnya alamnya dan senantiasa hangat ini bisa menjadi inspirasi untuk berkelana eksplorasi kehidupan sederhana. Cibolang Hot Spring Water mengundang Anda untuk merasakan nikmat hidangan pesisir dengan sepihak tanpa bercita-cita di dalam hati.</p></div></div>
-            <div class="card"><img src="https://images.unsplash.com/photo-1534234828563-02597793cba3?w=500&q=80"><div class="card-body"><h3>Kawah Wayang</h3><p>"Jangan lewatkan kejadian indah saat matahari terbenam melanda Kawah Wayang, di Pangalengan."</p></div></div></div>
+                <div id="paket" class="section-head">
+                    <span>HEMAT & PRAKTIS</span>
+                    <h2>📦 Paket Wisata Pilihan</h2>
+                    <p>Tinggal bawa badan, semua kami yang urus.</p>
+                </div>
+                <div class="grid">
+            <div class="card" style="border-top: 5px solid var(--accent);">
+                <div class="card-body">
+                    <div style="background:#fee2e2; color:#b91c1c; font-size:0.8rem; font-weight:700; display:inline-block; padding:5px 10px; border-radius:50px; margin-bottom:15px;">🔥 TERLARIS</div>
+                    <h3 class="card-title">Open Trip Nimo Highland</h3>
+                    <span class="price">Rp 350.000</span>
+                    <p class="card-text">Paket Best Seller! Seharian puas main di jembatan kaca viral.</p>
+                    <p style="font-size:0.9rem; margin-bottom:20px;">✅ Tiket + Transport + Makan</p>
+                    <a href="https://wa.me/6285156098112?text=Halo, saya mau booking Open Trip Nimo Highland" class="btn btn-primary">📱 Booking via WhatsApp</a>
+                </div>
             </div>
-            <footer><p>© 2025 Wisata Pangalengan.</p></footer>
+            
+            <div class="card" style="border-top: 5px solid var(--accent);">
+                <div class="card-body">
+                    <div style="background:#fee2e2; color:#b91c1c; font-size:0.8rem; font-weight:700; display:inline-block; padding:5px 10px; border-radius:50px; margin-bottom:15px;">🔥 TERLARIS</div>
+                    <h3 class="card-title">Camping Cileunca 2D1N</h3>
+                    <span class="price">Rp 250.000</span>
+                    <p class="card-text">Malam syahdu di pinggir danau, lengkap dengan api unggun.</p>
+                    <p style="font-size:0.9rem; margin-bottom:20px;">✅ Tenda + BBQ + Perahu</p>
+                    <a href="https://wa.me/6285156098112?text=Halo, saya mau booking Camping Cileunca 2D1N" class="btn btn-primary">📱 Booking via WhatsApp</a>
+                </div>
+            </div>
+            </div>
+                
+                <div class="section-head">
+                    <span>POPULER</span>
+                    <h2>🗺️ Destinasi Wajib Dikunjungi</h2>
+                </div>
+                <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1596401057633-56565355e1db?w=800&q=80" alt="Wisata Cileunca" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Wisata Cileunca</h3>
+                    <p class="card-text">"Liburan ke Cileunca, puncak wisata tersembunyi! Nikmati indahnya alam dan ciri khas keindahannya tanpa henti. Bersama kami, liburan ini menjadi lebih berkesan!"</p>
+                    <a href="https://www.google.com/maps/place/Wisata+Cileunca/data=!4m7!3m6!1s0x2e6891ee93c5fe43:0x452b46e905f5a7ad!8m2!3d-7.1933063!4d107.5500932!16s%2Fg%2F11h7ftp7z2!19sChIJQ_7Fk-6RaC4Rraf1BelGK0U?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-outline">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1534234828563-02597793cba3?w=800&q=80" alt="Sunrise Point Cukul" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Sunrise Point Cukul</h3>
+                    <p class="card-text">"Kamu bisa merasakan kehidupan semula putih kembali saat mendaki ke atas Sunset Peak, menikmati panorama sunrise indah dari Sunrise Point Cukul di Pangalengan. Liburan impian jatuh ke tanganmu!"</p>
+                    <a href="https://www.google.com/maps/place/Sunrise+Point+Cukul/data=!4m7!3m6!1s0x2e6890f11d215a35:0x820681487d86d09f!8m2!3d-7.2336882!4d107.534293!16s%2Fg%2F11cr_7kvmr!19sChIJNVohHfGQaC4Rn9CGfUiBBoI?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-outline">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1534234828563-02597793cba3?w=800&q=80" alt="Hutan Pinus Rahong" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Hutan Pinus Rahong</h3>
+                    <p class="card-text">"Jangan lewatkan udara segar dari pohon pinus eksotis di Hutan Pinus Rahong, idaman liburan tersedia di Pangalengan!"</p>
+                    <a href="https://www.google.com/maps/place/Hutan+Pinus+Rahong/data=!4m7!3m6!1s0x2e689161a91dd2cd:0xd7fb5097d74f3f7b!8m2!3d-7.1807035!4d107.5470134!16s%2Fg%2F11b7cdg673!19sChIJzdIdqWGRaC4Rez9P15dQ-9c?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-outline">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544983220-4b21915df842?w=800&q=80" alt="Kebun Teh Riung Gunung" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Kebun Teh Riung Gunung</h3>
+                    <p class="card-text">"Kamu tidak akan bisa lelah dengan pemandangan eksotisnya Kebun Teh Riung Gunung, tepatnya di kawasan Pangalengan! Liburanmu pun akan jadi lebih berkesan, sambil menikmati kehangatan dan aroma teh segar dari perkebunan yang sedap dipandang. Dukungan alam yang luar biasa akan membuat hari liburmu semakin menyegarkan. Makin banyak orang, makin berat penyesuaian dengan kondisi baru, tapi kalian sekarang sudah bisa menikmati keindahannya dengan tenang dan nyaman."</p>
+                    <a href="https://www.google.com/maps/place/Kebun+Teh+Riung+Gunung/data=!4m7!3m6!1s0x2e68922bac5cde91:0x405465a2bffebac5!8m2!3d-7.1764788!4d107.5234138!16s%2Fg%2F11dz6w6887!19sChIJkd5crCuSaC4Rxbr-v6JlVEA?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-outline">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544983220-4b21915df842?w=800&q=80" alt="Cibolang Hot Spring Water" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Cibolang Hot Spring Water</h3>
+                    <p class="card-text">Cibolang Hot Spring Water, destinasi wisata unik dan luar biasa di Pangalengan! NIKMATI KECINDAAN TERKUAT 24/7. Ciptakan kenangan liburan yang indah bersama keluarga dan teman-teman. Berenang dalam kehangatan alami dan nikmati sensasi hidup sebentar dari rasa panas luar biasa ini. JAM TELAH DITENTUKAN, HIDUP KERAS DI CIBOLANG HOT SPRING WATER!</p>
+                    <a href="https://www.google.com/maps/place/Cibolang+Hot+Spring+Water/data=!4m7!3m6!1s0x2e6897095dc4adaf:0x9e9a50f4c8a3dd21!8m2!3d-7.2320625!4d107.6169375!16s%2Fg%2F11b6lm7gtq!19sChIJr63EXQmXaC4RId2jyPRQmp4?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-outline">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            </div>
+
+                <div class="section-head">
+                    <span>BLOG & TIPS</span>
+                    <h2>📰 Info Terbaru 2025</h2>
+                </div>
+                <div class="grid">
+                <div class="card">
+                    <div class="card-body">
+                        <span style="font-size:0.8rem; color:var(--primary); font-weight:700;">TIPS & INFO</span>
+                        <h3 class="card-title">5 Spot Healing Terbaik di Kebun Teh Pangalengan</h3>
+                        <p class="card-text">Baca panduan lengkap agar liburanmu makin seru...</p>
+                        <a href="artikel/5-spot-healing-terbaik-di-kebun-teh-pangalengan.html" class="btn btn-outline">📖 Baca Artikel</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <span style="font-size:0.8rem; color:var(--primary); font-weight:700;">TIPS & INFO</span>
+                        <h3 class="card-title">Rekomendasi Tempat Camping Keluarga di Pinggir Danau Pangalengan</h3>
+                        <p class="card-text">Baca panduan lengkap agar liburanmu makin seru...</p>
+                        <a href="artikel/rekomendasi-tempat-camping-keluarga-di-pinggir-dan.html" class="btn btn-outline">📖 Baca Artikel</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <span style="font-size:0.8rem; color:var(--primary); font-weight:700;">TIPS & INFO</span>
+                        <h3 class="card-title">Panduan Lengkap Liburan ke Nimo Highland dan Wayang Windu</h3>
+                        <p class="card-text">Baca panduan lengkap agar liburanmu makin seru...</p>
+                        <a href="artikel/panduan-lengkap-liburan-ke-nimo-highland-dan-wayan.html" class="btn btn-outline">📖 Baca Artikel</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <span style="font-size:0.8rem; color:var(--primary); font-weight:700;">TIPS & INFO</span>
+                        <h3 class="card-title">Daftar Harga Tiket Masuk Tempat Wisata di Pangalengan 2025</h3>
+                        <p class="card-text">Baca panduan lengkap agar liburanmu makin seru...</p>
+                        <a href="artikel/daftar-harga-tiket-masuk-tempat-wisata-di-pangalen.html" class="btn btn-outline">📖 Baca Artikel</a>
+                    </div>
+                </div>
+                </div>
+                
+                <div style="background: white; padding: 50px; border-radius: 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 50px;">
+                    <h2>Kenapa Booking di Sini?</h2>
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px;">
+                        <div style="max-width: 250px;">
+                            <h3 style="color:var(--primary);">⚡ Fast Respon</h3>
+                            <p>Admin standby buat jawab semua pertanyaanmu.</p>
+                        </div>
+                        <div style="max-width: 250px;">
+                            <h3 style="color:var(--primary);">💰 Harga Jujur</h3>
+                            <p>Gak ada biaya tersembunyi. Apa yang dilihat, itu yang dibayar.</p>
+                        </div>
+                        <div style="max-width: 250px;">
+                            <h3 style="color:var(--primary);">🤝 Lokal Partner</h3>
+                            <p>Kami bekerjasama langsung dengan warga lokal Pangalengan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer>
+                <p>© 2025 Wisata Pangalengan. Portal Resmi Partner Liburanmu.</p>
+                <p style="font-size:0.8rem; margin-top:10px;">Powered by GitHub & AI Autopilot.</p>
+            </footer>
         </body></html>
         
