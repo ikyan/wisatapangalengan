@@ -1,12 +1,172 @@
 
-        <html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>body{font-family:sans-serif;padding:20px} .card{border:1px solid #ccc;padding:10px;margin:10px;border-radius:8px}</style>
+        <!DOCTYPE html>
+        <html lang="id">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Wisata Pangalengan - Healing Terbaik</title>
+            
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+                body { font-family: 'Poppins', sans-serif; background-color: #f8fafc; margin: 0; padding: 0; color: #334155; }
+                
+                /* HERO HEADER */
+                .hero {
+                    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1544983220-4b21915df842?w=1600&q=80');
+                    background-size: cover; background-position: center;
+                    color: white; text-align: center; padding: 120px 20px;
+                    border-radius: 0 0 40px 40px; margin-bottom: 50px;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+                }
+                .hero h1 { font-size: 3rem; margin: 0; font-weight: 600; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+                .hero p { font-size: 1.2rem; margin-top: 10px; opacity: 0.9; }
+                
+                .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+                
+                /* SECTION TITLE */
+                .section-title { 
+                    font-size: 1.8rem; color: #0f172a; margin-bottom: 30px; 
+                    border-left: 5px solid #10b981; padding-left: 15px; font-weight: 600;
+                }
+                
+                /* GRID LAYOUT */
+                .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-bottom: 60px; }
+                
+                /* CARD DESIGN */
+                .card { 
+                    background: white; border-radius: 20px; overflow: hidden; 
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.05); 
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    border: 1px solid #e2e8f0;
+                }
+                .card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+                .card img { width: 100%; height: 220px; object-fit: cover; }
+                .card-body { padding: 25px; }
+                .card h3 { margin: 0 0 10px 0; color: #0f172a; font-size: 1.25rem; }
+                .card p { color: #64748b; font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px; }
+                
+                /* HARGA & BADGE */
+                .price-tag { 
+                    background: #dcfce7; color: #166534; padding: 5px 12px; 
+                    border-radius: 50px; font-weight: 600; font-size: 0.9rem; display: inline-block; margin-bottom: 10px;
+                }
+                
+                /* TOMBOL */
+                .btn { 
+                    display: block; width: 100%; text-align: center; padding: 12px 0; 
+                    border-radius: 12px; font-weight: 600; text-decoration: none; transition: 0.3s;
+                    box-sizing: border-box;
+                }
+                .btn-wa { background: #22c55e; color: white; }
+                .btn-wa:hover { background: #16a34a; }
+                .btn-map { background: #3b82f6; color: white; }
+                .btn-map:hover { background: #2563eb; }
+                
+                /* FOOTER */
+                footer { text-align: center; padding: 50px 20px; color: #94a3b8; font-size: 0.9rem; border-top: 1px solid #e2e8f0; }
+            </style>
+        
         </head>
-        <body><h1>Wisata Pangalengan (Update: 2025-12-09 11:10:00.020720)</h1>
-        <h2>Paket Wisata</h2>
-        <div class='card'><h3>Open Trip Nimo</h3><p>Paket murah.</p></div>
-        <h2>Destinasi</h2>
-        <div class='card'><h3>Cibolang Hot Spring Water</h3><p>"Jatuh hati dengan kehangatan hidup alami di tepi gunung, jangan sampai lewat saat ini! Cibolang Hot Spring Water nggak cuma wisata air panas saja, tapi juga tempat rekreasi sempurna yang bisa membuat Anda merasa seperti kembali ke zaman dahulu."</p></div><div class='card'><h3>Nuansa Riung gunung Pangalengan</h3><p>"Jembatan terpendek di dunia, Rapih Nuansa Riung - satu-satunya jembatan yang bisa kamu lewati dengan seluruh badanmu dalam jebakan, dimana udara menjadi pendengar yang luar biasa; itu adalah nuansa riung gunung Pangalengan. Tangan dan kedua kaki, berikan semangat untuk melangkahkan jalan raya menuju kekuatan alam."</p></div><div class='card'><h3>Kawah Wayang</h3><p>"Di Kawah Wayang, pengalaman alami tersimpan dalam kehangatan lava yang melintas sepanjang tepian gunung yang terus berubah seperti lagu lontong panggilan." 
-"Jangan lewatkan senja di Kawah Wayang saat matahari mulai tumbangkan puncak gunung. Dengan cuaca sempurna dan angin lembut, siap-siap untuk melihat bagaimana cahaya menemani lava yang bergerilya ke kaki gunung."</p></div>
-        </body></html>
+        <body>
+            <div class="hero">
+                <h1>🌲 Explore Pangalengan</h1>
+                <p>Temukan surga tersembunyi, kebun teh, dan udara sejuk di Bandung Selatan.</p>
+                <p style="font-size: 0.9rem; margin-top:20px; background:rgba(255,255,255,0.2); display:inline-block; padding:5px 15px; border-radius:50px;">
+                    Update Terakhir: 09 December 2025
+                </p>
+            </div>
+            
+            <div class="container">
+                <h2 class="section-title">📦 Paket Wisata Hemat</h2>
+                <div class="grid">
+                    
+            <div class="card">
+                <div class="card-body">
+                    <span class="price-tag">🔥 Best Seller</span>
+                    <h3>Open Trip Nimo Highland</h3>
+                    <h2 style="color:#ef4444; margin:10px 0;">Rp 350.000</h2>
+                    <p>Paket paling laku! Seharian puas main di jembatan kaca.</p>
+                    <p style="font-size:0.9rem; color:#059669;">✅ Fasilitas: Tiket + Transport + Makan</p>
+                    <a href="https://wa.me/6285156098112?text=Halo admin, saya mau booking Open Trip Nimo Highland" class="btn btn-wa">📱 Booking via WhatsApp</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-body">
+                    <span class="price-tag">🔥 Best Seller</span>
+                    <h3>Camping Cileunca 2D1N</h3>
+                    <h2 style="color:#ef4444; margin:10px 0;">Rp 250.000</h2>
+                    <p>Malam syahdu di pinggir danau, api unggun & jagung bakar.</p>
+                    <p style="font-size:0.9rem; color:#059669;">✅ Fasilitas: Tenda + BBQ + Perahu</p>
+                    <a href="https://wa.me/6285156098112?text=Halo admin, saya mau booking Camping Cileunca 2D1N" class="btn btn-wa">📱 Booking via WhatsApp</a>
+                </div>
+            </div>
+            
+                </div>
+                
+                <h2 class="section-title">🗺️ Destinasi Populer</h2>
+                <div class="grid">
+                    
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1596401057633-56565355e1db?w=500&q=80" alt="Cibolang Hot Spring Water">
+                <div class="card-body">
+                    <h3>Cibolang Hot Spring Water</h3>
+                    <p>"Perjalanan kemerdekaan, rasakan kehidupan rehat sempurna di Cibolang Hot Spring Water - liburan yang tak terlupakan."</p>
+                    <a href="https://www.google.com/maps/place/Cibolang+Hot+Spring+Water/data=!4m7!3m6!1s0x2e6897095dc4adaf:0x9e9a50f4c8a3dd21!8m2!3d-7.2320625!4d107.6169375!16s%2Fg%2F11b6lm7gtq!19sChIJr63EXQmXaC4RId2jyPRQmp4?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-map">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?w=500&q=80" alt="Kawah Wayang">
+                <div class="card-body">
+                    <h3>Kawah Wayang</h3>
+                    <p>"Rincaikanlah sensasi mendaki menuju Kebun teh hijau, dimana langit bersinar terik di awal pagi dan matahari mulai berbuka lebar pada siang hari. Pemandian air panas tak kenal dengan angin laut yang menggoyahkan, dan kawah Wayang menerangi semuanya. Sekali-kali, buka ulang hati Anda untuk melukis cerita dari keindahan alam di Pulau Jawa!"</p>
+                    <a href="https://www.google.com/maps/place/Kawah+Wayang/data=!4m7!3m6!1s0x2e68964f66a3cda3:0xe1c37452bd117403!8m2!3d-7.2069313!4d107.6373723!16s%2Fg%2F11c1tyvhh7!19sChIJo82jZk-WaC4RA3QRvVJ0w-E?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-map">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1534234828563-02597793cba3?w=500&q=80" alt="Nuansa Riung gunung Pangalengan">
+                <div class="card-body">
+                    <h3>Nuansa Riung gunung Pangalengan</h3>
+                    <p>"Riung-siring alam, wisata ini menghadirkan nuansa pemandian indah dari Gunung Pangalengan."</p>
+                    <a href="https://www.google.com/maps/place/Nuansa+Riung+gunung+Pangalengan/data=!4m7!3m6!1s0x2e689367d3fe9dc7:0x3428c0c89fda0769!8m2!3d-7.1692662!4d107.5247218!16s%2Fg%2F11q8jhzy15!19sChIJx53-02eTaC4RaQfan8jAKDQ?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-map">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1534234828563-02597793cba3?w=500&q=80" alt="Cileunca Land">
+                <div class="card-body">
+                    <h3>Cileunca Land</h3>
+                    <p>Cicipi alam terpervitasi Cileunca Land, di Pangalengan.</p>
+                    <a href="https://www.google.com/maps/place/Cileunca+Land/data=!4m7!3m6!1s0x2e68917cabfb1521:0x80cb551fe6169c87!8m2!3d-7.1951109!4d107.5519503!16s%2Fg%2F11rkpp5jv2!19sChIJIRX7q3yRaC4Rh5wW5h9Vy4A?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-map">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?w=500&q=80" alt="Curug Panganten">
+                <div class="card-body">
+                    <h3>Curug Panganten</h3>
+                    <p>"Temukan rintangan alami dan jati diri dalam cerahnya Curug Panganten, destinasi pantai populer di Bangka Belitung."</p>
+                    <a href="https://www.google.com/maps/place/Curug+Panganten/data=!4m7!3m6!1s0x2e6895c97fc3e0f9:0x4b96d78d7f8c5847!8m2!3d-7.1603022!4d107.6252229!16s%2Fg%2F11by_qfrdr!19sChIJ-eDDf8mVaC4RR1iMf43Xlks?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-map">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1596401057633-56565355e1db?w=500&q=80" alt="Situ Cipanunjang">
+                <div class="card-body">
+                    <h3>Situ Cipanunjang</h3>
+                    <p>Indahnya Cipanunjang, pulanglahkan tekanan hidup anda dari kota-kota terpencil.</p>
+                    <a href="https://www.google.com/maps/place/Situ+Cipanunjang/data=!4m7!3m6!1s0x2e689124a54f8f5b:0x5e5cf74d6a59cd63!8m2!3d-7.2086853!4d107.5529741!16s%2Fg%2F11dd_l3t7_!19sChIJW49PpSSRaC4RY81Zak33XF4?authuser=0&hl=en&rclk=1" target="_blank" class="btn btn-map">📍 Lihat Lokasi</a>
+                </div>
+            </div>
+            
+                </div>
+            </div>
+            
+            <footer>
+                <p>&copy; 2025 Wisata Pangalengan. Powered by AI & GitHub Actions.</p>
+            </footer>
+        </body>
+        </html>
         
