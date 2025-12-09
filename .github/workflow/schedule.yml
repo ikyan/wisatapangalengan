@@ -1,21 +1,22 @@
-name: Auto Content Update
+name: Auto Content (Template Mode)
 
 on:
-  # Jadwal harian (pukul 06:00 WIB / 23:00 UTC)
   schedule:
+    # Jalan otomatis jam 06:00 pagi WIB
     - cron: '0 23 * * *'
-  
-  # Tombol 'Run workflow' manual di halaman GitHub Actions
-  workflow_dispatch:
+  workflow_dispatch: # Tombol Manual
 
 jobs:
-  run-python-script:
+  run-autopilot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    # --- SETUP CUMA BUTUH PYTHON & CHROME (BUAT SCRAPING GAMBAR) ---
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -24,25 +25,20 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install selenium webdriver-manager requests beautifulsoup4 google-genai
+        pip install selenium webdriver-manager requests beautifulsoup4
 
-    - name: Install Google Chrome (Wajib untuk Selenium)
+    - name: Install Chrome Browser
       run: |
         sudo apt-get update
-        sudo apt-get install google-chrome-stable
+        sudo apt-get install -y google-chrome-stable
 
-    - name: Set up Gemini API Key
-      # API Key harus disimpan sebagai GitHub Secret!
-      run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> $GITHUB_ENV
-
-    - name: Run Python Scraper & Generator
-      # Pastikan nama file Python lo sama persis dengan ini
-      run: python autopilot_final.py
+    # --- JALANKAN SCRIPT ---
+    - name: Run Autopilot Script
+      run: python autopilot.py
       
+    # --- SIMPAN HASIL ---
     - name: Commit and Push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: '🤖 Auto-update content (AI Run)'
-        files: |
-          index.html
-          data.json
+        commit_message: '🚀 Auto-update 20 Artikel Premium'
+        file_pattern: 'artikel/*.html index.html sitemap.xml'
