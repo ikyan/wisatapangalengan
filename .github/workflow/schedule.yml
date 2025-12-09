@@ -1,10 +1,11 @@
 name: Auto Content Update
 
 on:
-  # Atur jadwal jalan otomatis setiap hari jam 06:00 pagi WIB (UTC 23:00)
+  # Jadwal harian (pukul 06:00 WIB / 23:00 UTC)
   schedule:
-    - cron: '0 23 * * *' 
-  # Menambahkan tombol 'Run Workflow' manual di GitHub
+    - cron: '0 23 * * *'
+  
+  # Tombol 'Run workflow' manual di halaman GitHub Actions
   workflow_dispatch:
 
 jobs:
@@ -18,32 +19,30 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10' # Versi Python yang stabil di lingkungan GitHub
+        python-version: '3.10'
 
     - name: Install dependencies
       run: |
-        # Install semua library yang kita pakai
         python -m pip install --upgrade pip
         pip install selenium webdriver-manager requests beautifulsoup4 google-genai
 
-    # Setup Chrome untuk Selenium (Wajib karena GitHub server kosong)
-    - name: Install Google Chrome
+    - name: Install Google Chrome (Wajib untuk Selenium)
       run: |
         sudo apt-get update
         sudo apt-get install google-chrome-stable
 
-    # Memasukkan GEMINI_API_KEY dari GitHub Secrets ke Environment Variable
     - name: Set up Gemini API Key
+      # API Key harus disimpan sebagai GitHub Secret!
       run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> $GITHUB_ENV
 
     - name: Run Python Scraper & Generator
+      # Pastikan nama file Python lo sama persis dengan ini
       run: python autopilot_final.py
       
-    # Commit file yang berubah (index.html, data.json) dan push ke GitHub Pages
     - name: Commit and Push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: '🤖 Auto content update (AI Run)'
+        commit_message: '🤖 Auto-update content (AI Run)'
         files: |
           index.html
           data.json
