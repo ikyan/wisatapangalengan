@@ -1,263 +1,194 @@
 [
     {
         "nama": "Situ Cileunca Pangalengan Bandung",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Situ Cileunca Pangalengan Bandung di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Situ+Cileunca+Pangalengan+Bandung/data=!4m7!3m6!1s0x2e68916e2da2b341:0xe8f5f2382c124b8a!8m2!3d-7.1896766!4d107.5531164!16s%2Fg%2F11g18vx44q!19sChIJQbOiLW6RaC4RiksSLDjy9eg?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "pesona_padaawas.jpg",
+        "link_maps": "https://www.google.com/maps/place/Situ+Cileunca+Pangalengan+Bandung/data=!4m7!3m6!1s0x2e68916e2da2b341:0xe8f5f2382c124b8a!8m2!3d-7.1896766!4d107.5531164!16s%2Fg%2F11g18vx44q!19sChIJQbOiLW6RaC4RiksSLDjy9eg?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Wisata CILEUNCA Pangalengan",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Wisata CILEUNCA Pangalengan di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Wisata+CILEUNCA+Pangalengan/data=!4m7!3m6!1s0x2e6891ee93c5fe43:0x452b46e905f5a7ad!8m2!3d-7.1933063!4d107.5500932!16s%2Fg%2F11h7ftp7z2!19sChIJQ_7Fk-6RaC4Rraf1BelGK0U?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "sunrise_point_cukul.jpg",
+        "link_maps": "https://www.google.com/maps/place/Wisata+CILEUNCA+Pangalengan/data=!4m7!3m6!1s0x2e6891ee93c5fe43:0x452b46e905f5a7ad!8m2!3d-7.1933063!4d107.5500932!16s%2Fg%2F11h7ftp7z2!19sChIJQ_7Fk-6RaC4Rraf1BelGK0U?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Hutan Pinus Rahong",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Hutan Pinus Rahong di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Hutan+Pinus+Rahong/data=!4m7!3m6!1s0x2e689161a91dd2cd:0xd7fb5097d74f3f7b!8m2!3d-7.1807035!4d107.5470134!16s%2Fg%2F11b7cdg673!19sChIJzdIdqWGRaC4Rez9P15dQ-9c?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "hutan_pinus_rahong.jpg",
+        "link_maps": "https://www.google.com/maps/place/Hutan+Pinus+Rahong/data=!4m7!3m6!1s0x2e689161a91dd2cd:0xd7fb5097d74f3f7b!8m2!3d-7.1807035!4d107.5470134!16s%2Fg%2F11b7cdg673!19sChIJzdIdqWGRaC4Rez9P15dQ-9c?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
-        "nama": "Nuansa Riung gunung Pangalengan",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "nama": "Gravity Adventure",
+        "deskripsi": "Destinasi wisata populer Gravity Adventure di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Nuansa+Riung+gunung+Pangalengan/data=!4m7!3m6!1s0x2e689367d3fe9dc7:0x3428c0c89fda0769!8m2!3d-7.1692662!4d107.5247218!16s%2Fg%2F11q8jhzy15!19sChIJx53-02eTaC4RaQfan8jAKDQ?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "pesona_padaawas.jpg",
+        "link_maps": "https://www.google.com/maps/place/Gravity+Adventure/data=!4m7!3m6!1s0x2e6891d25a999a69:0xccf5a21e2c7fe218!8m2!3d-7.1901463!4d107.5505826!16s%2Fg%2F11h0b79v1t!19sChIJaZqZWtKRaC4RGOJ_LB6i9cw?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Sunrise Point Cukul",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Sunrise Point Cukul di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Sunrise+Point+Cukul/data=!4m7!3m6!1s0x2e6890f11d215a35:0x820681487d86d09f!8m2!3d-7.2336882!4d107.534293!16s%2Fg%2F11cr_7kvmr!19sChIJNVohHfGQaC4Rn9CGfUiBBoI?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "wisata_cileunca_pangalengan.jpg",
+        "link_maps": "https://www.google.com/maps/place/Sunrise+Point+Cukul/data=!4m7!3m6!1s0x2e6890f11d215a35:0x820681487d86d09f!8m2!3d-7.2336882!4d107.534293!16s%2Fg%2F11cr_7kvmr!19sChIJNVohHfGQaC4Rn9CGfUiBBoI?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Kebun Teh Riung Gunung",
+        "deskripsi": "Destinasi wisata populer Kebun Teh Riung Gunung di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "teh_jangkung_malabar.jpg",
+        "link_maps": "https://www.google.com/maps/place/Kebun+Teh+Riung+Gunung/data=!4m7!3m6!1s0x2e68922bac5cde91:0x405465a2bffebac5!8m2!3d-7.1764788!4d107.5234138!16s%2Fg%2F11dz6w6887!19sChIJkd5crCuSaC4Rxbr-v6JlVEA?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Nuansa Riung gunung Pangalengan",
+        "deskripsi": "Destinasi wisata populer Nuansa Riung gunung Pangalengan di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "nuansa_riung_gunung_pangalengan.jpg",
+        "link_maps": "https://www.google.com/maps/place/Nuansa+Riung+gunung+Pangalengan/data=!4m7!3m6!1s0x2e689367d3fe9dc7:0x3428c0c89fda0769!8m2!3d-7.1692662!4d107.5247218!16s%2Fg%2F11q8jhzy15!19sChIJx53-02eTaC4RaQfan8jAKDQ?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Danau Cileunca Pangalengan Bandung",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Danau Cileunca Pangalengan Bandung di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Danau+Cileunca+Pangalengan+Bandung/data=!4m7!3m6!1s0x2e689182da205b21:0x48f3f5daf9e820fc!8m2!3d-7.1941323!4d107.5465205!16s%2Fg%2F11hjk02cp1!19sChIJIVsg2oKRaC4R_CDo-dr180g?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "visit_pangalengan.jpg",
+        "link_maps": "https://www.google.com/maps/place/Danau+Cileunca+Pangalengan+Bandung/data=!4m7!3m6!1s0x2e689182da205b21:0x48f3f5daf9e820fc!8m2!3d-7.1941323!4d107.5465205!16s%2Fg%2F11hjk02cp1!19sChIJIVsg2oKRaC4R_CDo-dr180g?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
-        "nama": "Camping pangalengan",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "nama": "Situ Cipanunjang",
+        "deskripsi": "Destinasi wisata populer Situ Cipanunjang di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Camping+pangalengan/data=!4m7!3m6!1s0x2e68914b1865d995:0x73f6fffc999b0535!8m2!3d-7.1690811!4d107.5246736!16s%2Fg%2F11tfbw44tp!19sChIJldllGEuRaC4RNQWbmfz_9nM?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "curug_panganten_kembar.jpg",
+        "link_maps": "https://www.google.com/maps/place/Situ+Cipanunjang/data=!4m7!3m6!1s0x2e689124a54f8f5b:0x5e5cf74d6a59cd63!8m2!3d-7.2086853!4d107.5529741!16s%2Fg%2F11dd_l3t7_!19sChIJW49PpSSRaC4RY81Zak33XF4?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
-        "nama": "NIMO Highland",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "nama": "Cileunca Land",
+        "deskripsi": "Destinasi wisata populer Cileunca Land di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/NIMO+Highland/data=!4m7!3m6!1s0x2e6897a491d3bca3:0x5031a7c9d6252bf3!8m2!3d-7.2194621!4d107.5774197!16s%2Fg%2F11pf928q64!19sChIJo7zTkaSXaC4R8ysl1smnMVA?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "nimo_eye.jpg",
+        "link_maps": "https://www.google.com/maps/place/Cileunca+Land/data=!4m7!3m6!1s0x2e68917cabfb1521:0x80cb551fe6169c87!8m2!3d-7.1951109!4d107.5519503!16s%2Fg%2F11rkpp5jv2!19sChIJIRX7q3yRaC4Rh5wW5h9Vy4A?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Taman Rusa",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Taman Rusa di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Taman+Rusa/data=!4m7!3m6!1s0x2e68940f9f7366ad:0xedff18448dd1c152!8m2!3d-7.1903675!4d107.6105687!16s%2Fg%2F11cnt58c_j!19sChIJrWZznw-UaC4RUsHRjUQY_-0?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "nimo_highland.jpg",
+        "link_maps": "https://www.google.com/maps/place/Taman+Rusa/data=!4m7!3m6!1s0x2e68940f9f7366ad:0xedff18448dd1c152!8m2!3d-7.1903675!4d107.6105687!16s%2Fg%2F11cnt58c_j!19sChIJrWZznw-UaC4RUsHRjUQY_-0?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "NIMO Highland",
+        "deskripsi": "Destinasi wisata populer NIMO Highland di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "wisata_rafting_pamor_adventure.jpg",
+        "link_maps": "https://www.google.com/maps/place/NIMO+Highland/data=!4m7!3m6!1s0x2e6897a491d3bca3:0x5031a7c9d6252bf3!8m2!3d-7.2194621!4d107.5774197!16s%2Fg%2F11pf928q64!19sChIJo7zTkaSXaC4R8ysl1smnMVA?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Curug Panganten Kembar",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Curug Panganten Kembar di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Curug+Panganten+Kembar/data=!4m7!3m6!1s0x2e6895c97fc3e0f9:0x4b96d78d7f8c5847!8m2!3d-7.1603022!4d107.6252229!16s%2Fg%2F11by_qfrdr!19sChIJ-eDDf8mVaC4RR1iMf43Xlks?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Kebun Teh Kertamanah",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Kebun+Teh+Kertamanah/data=!4m7!3m6!1s0x2e68941854157531:0xad90febcd1039856!8m2!3d-7.1684452!4d107.5951871!16s%2Fg%2F11dfgbk3mn!19sChIJMXUVVBiUaC4RVpgD0bz-kK0?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "kebun_teh_kertamanah.jpg",
+        "link_maps": "https://www.google.com/maps/place/Curug+Panganten+Kembar/data=!4m7!3m6!1s0x2e6895c97fc3e0f9:0x4b96d78d7f8c5847!8m2!3d-7.1603022!4d107.6252229!16s%2Fg%2F11by_qfrdr!19sChIJ-eDDf8mVaC4RR1iMf43Xlks?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Kawah Wayang",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Kawah Wayang di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Kawah+Wayang/data=!4m7!3m6!1s0x2e68964f66a3cda3:0xe1c37452bd117403!8m2!3d-7.2069313!4d107.6373723!16s%2Fg%2F11c1tyvhh7!19sChIJo82jZk-WaC4RA3QRvVJ0w-E?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "kebun_teh_kertamanah.jpg",
+        "link_maps": "https://www.google.com/maps/place/Kawah+Wayang/data=!4m7!3m6!1s0x2e68964f66a3cda3:0xe1c37452bd117403!8m2!3d-7.2069313!4d107.6373723!16s%2Fg%2F11c1tyvhh7!19sChIJo82jZk-WaC4RA3QRvVJ0w-E?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
-        "nama": "Cileunca Park",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "nama": "Alam Singkur",
+        "deskripsi": "Destinasi wisata populer Alam Singkur di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Cileunca+Park/data=!4m7!3m6!1s0x2e689175177feb4f:0x4a7beffc5a84b5bc!8m2!3d-7.1938153!4d107.5459462!16s%2Fg%2F11vrz_3lh6!19sChIJT-t_F3WRaC4RvLWEWvzve0o?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Pesona padaawas",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Pesona+padaawas/data=!4m7!3m6!1s0x2e6895d70440d5fb:0x515894c83da5c22e!8m2!3d-7.167291!4d107.5929871!16s%2Fg%2F11p5tc5z2s!19sChIJ-9VABNeVaC4RLsKlPciUWFE?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "sunrise_point_cukul.jpg",
+        "link_maps": "https://www.google.com/maps/place/Alam+Singkur/data=!4m7!3m6!1s0x2e6891655d297f5f:0x9fa5d48feda11ea3!8m2!3d-7.1837867!4d107.5466501!16s%2Fg%2F11qm60_rvg!19sChIJX38pXWWRaC4Rox6h7Y_UpZ8?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Pemandian Air Panas Cibolang",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Pemandian Air Panas Cibolang di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Pemandian+Air+Panas+Cibolang/data=!4m7!3m6!1s0x2e6897095dc4adaf:0x9e9a50f4c8a3dd21!8m2!3d-7.2320625!4d107.6169375!16s%2Fg%2F11b6lm7gtq!19sChIJr63EXQmXaC4RId2jyPRQmp4?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "pemandian_air_panas_cibolang.jpg",
+        "link_maps": "https://www.google.com/maps/place/Pemandian+Air+Panas+Cibolang/data=!4m7!3m6!1s0x2e6897095dc4adaf:0x9e9a50f4c8a3dd21!8m2!3d-7.2320625!4d107.6169375!16s%2Fg%2F11b6lm7gtq!19sChIJr63EXQmXaC4RId2jyPRQmp4?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Camping pangalengan",
+        "deskripsi": "Destinasi wisata populer Camping pangalengan di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "nuansa_riung_gunung_pangalengan.jpg",
+        "link_maps": "https://www.google.com/maps/place/Camping+pangalengan/data=!4m7!3m6!1s0x2e68914b1865d995:0x73f6fffc999b0535!8m2!3d-7.1690811!4d107.5246736!16s%2Fg%2F11tfbw44tp!19sChIJldllGEuRaC4RNQWbmfz_9nM?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Kebun Teh Kertamanah",
+        "deskripsi": "Destinasi wisata populer Kebun Teh Kertamanah di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "sunrise_point_cukul.jpg",
+        "link_maps": "https://www.google.com/maps/place/Kebun+Teh+Kertamanah/data=!4m7!3m6!1s0x2e68941854157531:0xad90febcd1039856!8m2!3d-7.1684452!4d107.5951871!16s%2Fg%2F11dfgbk3mn!19sChIJMXUVVBiUaC4RVpgD0bz-kK0?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Pesona padaawas",
+        "deskripsi": "Destinasi wisata populer Pesona padaawas di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "hutan_pinus_rahong.jpg",
+        "link_maps": "https://www.google.com/maps/place/Pesona+padaawas/data=!4m7!3m6!1s0x2e6895d70440d5fb:0x515894c83da5c22e!8m2!3d-7.167291!4d107.5929871!16s%2Fg%2F11p5tc5z2s!19sChIJ-9VABNeVaC4RLsKlPciUWFE?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Jembatan Cinta Situ cileunca",
+        "deskripsi": "Destinasi wisata populer Jembatan Cinta Situ cileunca di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "danau_cileunca_pangalengan_bandung.jpg",
+        "link_maps": "https://www.google.com/maps/place/Jembatan+Cinta+Situ+cileunca/data=!4m7!3m6!1s0x2e68919e456bcc67:0xe588774d9b3dcc0e!8m2!3d-7.1912712!4d107.5549826!16s%2Fg%2F11rwphqrmn!19sChIJZ8xrRZ6RaC4RDsw9m013iOU?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Cileunca Park",
+        "deskripsi": "Destinasi wisata populer Cileunca Park di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "pesona_padaawas.jpg",
+        "link_maps": "https://www.google.com/maps/place/Cileunca+Park/data=!4m7!3m6!1s0x2e689175177feb4f:0x4a7beffc5a84b5bc!8m2!3d-7.1938153!4d107.5459462!16s%2Fg%2F11vrz_3lh6!19sChIJT-t_F3WRaC4RvLWEWvzve0o?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
+    },
+    {
+        "nama": "Puncak Sulibra artapela",
+        "deskripsi": "Destinasi wisata populer Puncak Sulibra artapela di kawasan Pangalengan.",
+        "tiket": "Hubungi Admin",
+        "gambar": "kebun_teh_kertamanah.jpg",
+        "link_maps": "https://www.google.com/maps/place/Puncak+Sulibra+artapela/data=!4m7!3m6!1s0x2e6895e25915c0ef:0x90b8ea650a4ea6d5!8m2!3d-7.1732149!4d107.6540597!16s%2Fg%2F11cmyt45ll!19sChIJ78AVWeKVaC4R1aZOCmXquJA?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
         "nama": "Kebun Teh Pangalengan",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "deskripsi": "Destinasi wisata populer Kebun Teh Pangalengan di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Kebun+Teh+Pangalengan/data=!4m7!3m6!1s0x2e6897504b340e15:0xc0b8254d4c3a00e!8m2!3d-7.2106882!4d107.5937096!16s%2Fg%2F11nn4fgs0x!19sChIJFQ40S1CXaC4RDqDD1FSCCww?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "danau_cileunca_pangalengan_bandung.jpg",
+        "link_maps": "https://www.google.com/maps/place/Kebun+Teh+Pangalengan/data=!4m7!3m6!1s0x2e6897504b340e15:0xc0b8254d4c3a00e!8m2!3d-7.2106882!4d107.5937096!16s%2Fg%2F11nn4fgs0x!19sChIJFQ40S1CXaC4RDqDD1FSCCww?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     },
     {
-        "nama": "Teh Jangkung Malabar",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
+        "nama": "Rahong",
+        "deskripsi": "Destinasi wisata populer Rahong di kawasan Pangalengan.",
         "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Teh+Jangkung+Malabar/data=!4m7!3m6!1s0x2e68970c4bab8bdd:0xedd2767976d95220!8m2!3d-7.2135095!4d107.5863462!16s%2Fg%2F11mvrfx5zd!19sChIJ3YurSwyXaC4RIFLZdnl20u0?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Wisata Rafting Pamor Adventure",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Wisata+Rafting+Pamor+Adventure/data=!4m7!3m6!1s0x2e6891429e0ebaf5:0xaf354faff090b9eb!8m2!3d-7.1903034!4d107.5503718!16s%2Fg%2F11clswsdbf!19sChIJ9boOnkKRaC4R67mQ8K9PNa8?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Kampung Singkur",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Kampung+Singkur/data=!4m7!3m6!1s0x2e68914fe6790375:0xfd3008c0d46d6005!8m2!3d-7.1841111!4d107.5465833!16s%2Fg%2F11gjt45l_v!19sChIJdQN55k-RaC4RBWBt1MAIMP0?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Nimo Eye",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Nimo+Eye/data=!4m7!3m6!1s0x2e68979bb2df6ab7:0x25290460f807b37f!8m2!3d-7.2202783!4d107.5774037!16s%2Fg%2F11vwgx0gnp!19sChIJt2rfspuXaC4Rf7MH-GAEKSU?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Bandungrafting Basecamp",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Bandungrafting+Basecamp/data=!4m7!3m6!1s0x2e689121feb8df81:0x1594c41d36db303f!8m2!3d-7.191857!4d107.546973!16s%2Fg%2F11nx14zr89!19sChIJgd-4_iGRaC4RPzDbNh3ElBU?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Taman Langit Pangalengan (Sunrise Point & Camping Ground)",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Taman+Langit+Pangalengan+%28Sunrise+Point+%26+Camping+Ground%29/data=!4m7!3m6!1s0x2e68914469b3196f:0x7e0b4b479efb8424!8m2!3d-7.2314127!4d107.5264791!16s%2Fg%2F11mvm1nl6v!19sChIJbxmzaUSRaC4RJIT7nkdLC34?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Visit Pangalengan",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Visit+Pangalengan/data=!4m7!3m6!1s0x2e68973daf8928e5:0xc60fd80bf704a1b9!8m2!3d-7.1938587!4d107.5453499!16s%2Fg%2F11f7gp71qx!19sChIJ5SiJrz2XaC4RuaEE9wvYD8Y?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Saung Singkur Riverside",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Saung+Singkur+Riverside/data=!4m7!3m6!1s0x2e6891bb0b56780f:0x3420b5dc455f7e3e!8m2!3d-7.1846337!4d107.5471452!16s%2Fg%2F11s36_kd_h!19sChIJD3hWC7uRaC4RPn5fRdy1IDQ?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Wisata alam pangalengan",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Wisata+alam+pangalengan/data=!4m7!3m6!1s0x2e689100147f479d:0x4ff5f9e903e97e8f!8m2!3d-7.1808941!4d107.5402297!16s%2Fg%2F11y5nd999l!19sChIJnUd_FACRaC4Rj37pA-n59U8?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Kertamanah Water Park",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Kertamanah+Water+Park/data=!4m7!3m6!1s0x2e68968e519387ab:0xd92fb264047f49a4!8m2!3d-7.1890931!4d107.6120204!16s%2Fg%2F11fx8d2lzd!19sChIJq4eTUY6WaC4RpEl_BGSyL9k?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Kebun Teh Malabar",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Kebun+Teh+Malabar/data=!4m7!3m6!1s0x2e6897480de13ef3:0x57b366cbc0f31e51!8m2!3d-7.229262!4d107.5808585!16s%2Fg%2F11tmmx_7d3!19sChIJ8z7hDUiXaC4RUR7zwMtms1c?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Wisata Pangalengan",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Wisata+Pangalengan/data=!4m7!3m6!1s0x2e6891000978a4cb:0x474ba15968625f94!8m2!3d-7.2033419!4d107.5489721!16s%2Fg%2F11w50rx577!19sChIJy6R4CQCRaC4RlF9iaFmhS0c?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
-    },
-    {
-        "nama": "Hamparan Kebun Teh",
-        "deskripsi": "Destinasi hits di Pangalengan. Rating tinggi di Google Maps.",
-        "tiket": "Hubungi Admin",
-        "gambar": "wayang.jpg",
-        "rating_maps": "⭐ 4.5+",
-        "link_google": "https://www.google.com/maps/place/Hamparan+Kebun+Teh/data=!4m7!3m6!1s0x2e6891003837d161:0xcc264a351e0ed632!8m2!3d-7.2250332!4d107.5417298!16s%2Fg%2F11vqqldlct!19sChIJYdE3OACRaC4RMtYOHjVKJsw?authuser=0&hl=id&rclk=1",
-        "wa_admin": "62812345678"
+        "gambar": "danau_cileunca_pangalengan_bandung.jpg",
+        "link_maps": "https://www.google.com/maps/place/Rahong/data=!4m7!3m6!1s0x2e6893fe1eefc1b1:0x6d0551b12b2ac148!8m2!3d-7.1845173!4d107.5447741!16s%2Fg%2F11h9rqdp28!19sChIJscHvHv6TaC4RSMEqK7FRBW0?authuser=0&hl=id&rclk=1",
+        "wa_admin": "6285156098112"
     }
 ]
